@@ -40,8 +40,16 @@ Dogs App é uma aplicação web moderna que permite aos usuários explorar, gere
 <div style="overflow-x: auto;">
     <table style="width: 100%;">
         <tr>
-            <td style="width: 50%;"><img src="./src/images/welcome.jpg" alt="Página de boas-vindas" style="width: 100%; height: auto; object-fit: cover;" /></td>
-            <td style="width: 50%;"><img src="./src/images/grama.jpg" alt="Interface principal" style="width: 100%; height: auto; object-fit: cover;" /></td>
+            <td style="width: 50%;"><img src="./public/screenshots/landing.png" alt="Landing Page" style="width: 100%; height: auto; object-fit: cover;" /></td>
+            <td style="width: 50%;"><img src="./public/screenshots/home.png" alt="Home Page" style="width: 100%; height: auto; object-fit: cover;" /></td>
+        </tr>
+        <tr>
+            <td style="width: 50%;"><img src="./public/screenshots/search.png" alt="Search Dogs" style="width: 100%; height: auto; object-fit: cover;" /></td>
+            <td style="width: 50%;"><img src="./public/screenshots/favorites.png" alt="Favorites Dogs" style="width: 100%; height: auto; object-fit: cover;" /></td>
+        </tr>
+        <tr>
+            <td style="width: 50%;"><img src="./public/screenshots/create.png" alt="Create Dogs" style="width: 100%; height: auto; object-fit: cover;" /></td>
+            <td style="width: 50%;"><img src="./public/screenshots/details.png" alt="Details Dogs" style="width: 100%; height: auto; object-fit: cover;" /></td>
         </tr>
     </table>
 </div>
@@ -546,15 +554,15 @@ npm run build         # Verificar build
 
 ## 📄 Licença
 
-Este projeto é privado e não possui licença para uso público.
+Este projeto não possui licença e para uso público.
 
 ## 👤 Autor
 
 **Seu Nome**
 
-- GitHub: [@seu-usuario](https://github.com/seu-usuario)
-- LinkedIn: [Seu Perfil](https://linkedin.com/in/seu-perfil)
-- Email: seu.email@exemplo.com
+- GitHub: [@ENDERSON-MARIN](https://github.com/ENDERSON-MARIN)
+- LinkedIn: [Enderson Millan](https://linkedin.com/in/enderson-millan)
+- Email: millanendersondev@gmail.com
 
 ---
 
