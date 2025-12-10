@@ -1,0 +1,24 @@
+{
+  "extends": ["react-app", "react-app/jest"],
+  "rules": {
+    "no-console": "warn",
+    "no-debugger": "warn",
+    "no-unused-vars": "warn",
+    "prefer-const": "warn",
+    "no-var": "warn",
+    "react/jsx-uses-react": "off",
+    "react/react-in-jsx-scope": "off",
+    "react/prop-types": "off",
+    "jest/no-conditional-expect": "warn"
+  },
+  "overrides": [
+    {
+      "files": ["**/*.test.js", "**/*.test.jsx", "**/*.property.test.js"],
+      "rules": {
+        "no-console": "off",
+        "jest/no-conditional-expect": "off",
+        "no-unused-vars": "off"
+      }
+    }
+  ]
+}

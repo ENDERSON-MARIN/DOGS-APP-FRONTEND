@@ -1,0 +1,67 @@
+{
+  "name": "client",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@reduxjs/toolkit": "^2.11.1",
+    "axios": "^1.13.2",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "react-icons": "^5.5.0",
+    "react-redux": "^9.2.0",
+    "react-router-dom": "^7.10.1",
+    "react-scripts": "^5.0.1",
+    "redux": "^5.0.1",
+    "styled-components": "^6.1.19",
+    "sweetalert2": "^11.26.4",
+    "web-vitals": "^5.1.0"
+  },
+  "scripts": {
+    "dev": "cross-env GENERATE_SOURCEMAP=true craco start",
+    "start": "serve -s build -l 3000",
+    "build": "node scripts/build-prod.js",
+    "build:analyze": "npm run build && npx webpack-bundle-analyzer build/static/js/*.js",
+    "build:dev": "cross-env GENERATE_SOURCEMAP=true craco build",
+    "test": "craco test --watchAll=false",
+    "test:watch": "craco test",
+    "test:coverage": "craco test --coverage --watchAll=false",
+    "lint": "eslint src --ext .js,.jsx,.ts,.tsx --fix",
+    "format": "prettier --write \"src/**/*.{js,jsx,ts,tsx,json,css,md}\"",
+    "clean": "rimraf build",
+    "prebuild": "npm run clean",
+    "postbuild": "node scripts/build-stats.js",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "@craco/craco": "^7.1.0",
+    "@testing-library/jest-dom": "^5.17.0",
+    "@testing-library/react": "^13.4.0",
+    "@testing-library/user-event": "^14.6.1",
+    "cross-env": "^10.1.0",
+    "eslint": "^8.57.1",
+    "fast-check": "^4.4.0",
+    "path-browserify": "^1.0.1",
+    "prettier": "^3.7.4",
+    "rimraf": "^5.0.10",
+    "serve": "^14.2.5",
+    "webpack-bundle-analyzer": "^4.10.2"
+  }
+}
